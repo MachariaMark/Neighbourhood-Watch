@@ -4,4 +4,4 @@ import datetime as dt
 
 # Create your views here.
 def welcome(request):
-  return HttpResponse('Welcome to the Maitrix.')
+  return render(request, 'welcome.html')
